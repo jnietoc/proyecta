@@ -153,7 +153,7 @@
                           </div>
                                 <div class="col-lg-3">
                                     <div class="thumbnail">
-                                        <asset:image class="img-responsive" src="mkweblankan-services- páginas web  ecommerce.png"/>
+                                        <asset:image class="img-responsive" src="ecommerce.png"/>
                                         <div class="caption" align="center">
                                             <h5>Creación de Páginas WEB</h5>
                                             <h3>Diseño especializado a los objetivos de tu empresa.</h3>
@@ -163,7 +163,7 @@
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="thumbnail">
-                                        <asset:image class="img-responsive" src="mkinvestigación de mercado.png"/>
+                                        <asset:image class="img-responsive" src="mercado.png"/>
                                         <div class="caption" align="center">
                                             <h5>Investigación de Mercado</h5>
                                             <h3>Ideales para identificar oportunidades de negocios, expansión en el mercado, aceptación de producto y satisfacción del cliente.</h3>
@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="thumbnail">
-                                        <asset:image class="img-responsive" src="mkcreación de contenido.png"/>
+                                        <asset:image class="img-responsive" src="reacion.png"/>
                                         <div class="caption" align="center">
                                             <h5>Creación de Contenido</h5>
                                             <h3>Hacemos los videos e imágenes que tu marca necesita para crear impacto ante los consumidores.</h3>
@@ -250,7 +250,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="thumbnail">
-                            <asset:image class="img-responsive" src="mkcreación de contenido.png"/>
+                            <asset:image class="img-responsive" src="reacion.png"/>
                             <div class="caption" align="center">
                                 <h5>Creación de Contenido</h5>
                                 <h3>Hacemos los videos e imágenes que tu marca necesita para crear impacto ante los consumidores.</h3>
