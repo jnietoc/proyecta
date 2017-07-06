@@ -294,7 +294,7 @@
             </div>
 
             <div id="conocenos" style="padding: 5%;background-color: white">
-                <h1 align="center" class="h1" style="color: #0066ff; font-family: Corbel;font: bolder; margin-left:2%; width: 95%; padding-top: 1%;padding-bottom: 1% ;padding-left: 5%; padding-right: 5%">Somos el mejor aliado con el que cuentan las Pymes</h1>
+                <h1 align="center" class="h1" style="color: #0066ff; font-family: Corbel; font: bolder; margin-left:2%; width: 95%; padding-top: 1%;padding-bottom: 1% ;padding-left: 5%; padding-right: 5%">Somos el mejor aliado con el que cuentan las Pymes</h1>
                 <h3 align="center" class="h3" style="color:#113358; margin-left:2%; width: 95%; padding-top: 1%;padding-bottom: 1% ;padding-left: 5%; padding-right: 5%">Desarrollamos las Estrategias de Marketing, Finanzas Administrativas y Capacitación que tu Empresa Necesita</h2>
             </div>
         </div>
