@@ -13,6 +13,8 @@
         <asset:stylesheet src="application.css"/>
         <asset:javascript src="application.js"/>
         <asset:javascript src="offcanvas.js"/>
+        <asset:stylesheet src="bootstrap.css"/>
+        <asset:javascript src="bootstrap.js"/>
         <g:layoutHead/>
     </head>
 
