@@ -6054,7 +6054,7 @@ a.badge:hover {
 }
 }
 .thumbnail {
-	padding: 15px; width: 300px; font-size:medium ; height: 500px;max-height: 500px;border-radius: 10px; border: 1px solid rgb(221, 221, 221); transition:border 0.2s ease-in-out; border-image: none; line-height: 1.4285; margin-bottom: 30px; display: block; background-color: rgb(255, 255, 255); -webkit-transition: border .2s ease-in-out; -o-transition: border .2s ease-in-out;
+	padding: 15px;width: 300px;font-size: small;  height: 550px; text-align: justify;max-height: 550px;border-radius: 10px; border: 1px solid rgb(221, 221, 221); transition:border 0.2s ease-in-out; border-image: none; line-height: 1.4285; margin-bottom: 30px; display: block; background-color: rgb(255, 255, 255); -webkit-transition: border .2s ease-in-out; -o-transition: border .2s ease-in-out;
 }
 .thumbnail a > img {
 	margin-right: auto; margin-left: auto; width: 300px;
@@ -7323,10 +7323,10 @@ button.close {
 	left: 0px; top: 0px; width: 15%; text-align: center; bottom: 0px; color: transparent; font-size: 20px; position: absolute; opacity: 0.5; text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
 }
 .carousel-control.left {
-	left: 8%; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.0001) 100%); background-repeat: repeat-x;
+	left: 7%; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0.0001) 100%); background-repeat: repeat-x;
 }
 .carousel-control.right {
-	left: auto; right: 6%; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0px, rgba(0, 0, 0, 0.5) 100%); background-repeat: repeat-x;
+	left: auto; right: 7%; background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0px, rgba(0, 0, 0, 0.5) 100%); background-repeat: repeat-x;
 
 }
 .carousel-control:focus {

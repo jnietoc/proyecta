@@ -13,6 +13,7 @@
         <asset:stylesheet src="application.css"/>
         <asset:javascript src="application.js"/>
         <asset:javascript src="offcanvas.js"/>
+        <asset:stylesheet src="offcanvas.css"/>
         <asset:stylesheet src="bootstrap.css"/>
         <asset:javascript src="bootstrap.js"/>
         <g:layoutHead/>
@@ -22,11 +23,11 @@
         <div class="navbar-wrapper">
             <div class="container">
 
-                <nav class="navbar navbar-inverse" style="background-attachment: white;">
+                <nav class="navbar navbar-inverse" style="background: white; margin-left: 4%">
                     <div class="navbar navbar-fixed-top" role="navigation" style="background-color: white">
                         <div class="container" style="background-color: white">
-                            <div class="navbar-header" style="background-color: #8e44ad">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background-color: white">
+                            <div class="navbar-header" style="background-color: #113358">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background-color: #113358">
                                     <span class="sr-only">Mostrar</span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -40,32 +41,32 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: white; color: #0066ff; width: 100%">
                                 <div class="navbar-fixed-top" style="background-color: white; margin-left: 6%;margin-right: 3%;width:100% " >
                                     <asset:image src="Logo Proyecta Mas.png" style="height: 15%; width: 15%" />
-                                    <ul class="navbar-header" style=" padding: 2%; font-size: x-large; color: white;background-color: white" >
-                                        <ul class="nav navbar-nav" style="background-color: #0066ff;color: white;padding: 1">
+                                    <ul class="navbar-header" style=" padding: 1%; font-size: x-large; color: white;background-color: white" >
+                                        <ul class="nav navbar-nav" style="background-color: #0066ff;color: white;">
                                             <li class="dropdown">
                                                 <a onclick="document.getElementById('marketing').scrollIntoView(true)" class="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Marketing Digital</a>
 
                                             </li>
                                         </ul>
-                                        <ul class="nav navbar-nav" style="background-color: #0066ff; color: white;padding: 1">
+                                        <ul class="nav navbar-nav" style="background-color: #0066ff; color: white;">
                                             <li class="dropdown" >
                                                 <a onclick="document.getElementById('EComerce').scrollIntoView(true)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">E-Comerce</a>
 
                                             </li>
                                         </ul>
-                                        <ul class="nav navbar-nav" style="background-color: #0066ff; color: white;padding: 1">
+                                        <ul class="nav navbar-nav" style="background-color: #0066ff; color: white;">
                                             <li class="dropdown" >
                                                 <a onclick="document.getElementById('finanzas').scrollIntoView(true)"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Finanzas Administrativas</a>
 
                                             </li>
                                         </ul>
-                                        <ul class="nav navbar-nav " style="background-color: #0066ff; color: white;padding: 1">
+                                        <ul class="nav navbar-nav " style="background-color: #0066ff; color: white;">
                                             <li class="dropdown" >
                                                 <a onclick="document.getElementById('talleres').scrollIntoView(true)"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Talleres de Capacitacion</a>
 
                                             </li>
                                         </ul>
-                                        <ul class="nav navbar-nav " style="background-color: #0066ff; color: white;padding: 1">
+                                        <ul class="nav navbar-nav " style="background-color: #0066ff; color: white;">
                                             <li class="dropdown" >
                                                 <a onclick="document.getElementById('conocenos').scrollIntoView(true)"   class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Conócenos</a>
 
@@ -147,8 +148,8 @@
                               <div class="thumbnail" >
                                   <asset:image class="img-responsive" src="mkredes-sociales-chile.png"/>
                                   <div class="caption" align="center">
-                                        <h5>Administración de Redes Sociales</h5>
-                                    <h3>Realizamos publicaciones diarias para que tu marca siempre este presente.</h3>
+                                        <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">ADMINISTRACIÓN DE REDES SOCIALES</h5>
+                                        <h3>Realizamos publicaciones diarias para que tu marca siempre este presente.</h3>
 
                                   </div>
                               </div>
@@ -157,7 +158,7 @@
                                     <div class="thumbnail">
                                         <asset:image class="img-responsive" src="ecommerce.png"/>
                                         <div class="caption" align="center">
-                                            <h5>Creación de Páginas WEB</h5>
+                                            <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">CREACIÓN DE PÁGINAS WEB</h5>
                                             <h3>Diseño especializado a los objetivos de tu empresa.</h3>
 
                                         </div>
@@ -167,7 +168,7 @@
                                     <div class="thumbnail">
                                         <asset:image class="img-responsive" src="mercado.png"/>
                                         <div class="caption" align="center">
-                                            <h5>Investigación de Mercado</h5>
+                                            <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">INVESTIGACIÓN DE MERCADO</h5>
                                             <h3>Ideales para identificar oportunidades de negocios, expansión en el mercado, aceptación de producto y satisfacción del cliente.</h3>
                                         </div>
                                     </div>
@@ -176,7 +177,7 @@
                                     <div class="thumbnail">
                                         <asset:image class="img-responsive" src="reacion.png"/>
                                         <div class="caption" align="center">
-                                            <h5>Creación de Contenido</h5>
+                                            <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">CREACIÓN DE CONTENIDO</h5>
                                             <h3>Hacemos los videos e imágenes que tu marca necesita para crear impacto ante los consumidores.</h3>
                                         </div>
                                         </div>
@@ -193,7 +194,7 @@
                         <div class="thumbnail">
                             <asset:image class="img-responsive" src="plataforma online.png"/>
                             <div class="caption" align="center">
-                                <h5>Plataforma Online</h5>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">PLATAFORMA ONLINE</h5>
                                 <h3>Diseñamos tu plataforma e integramos el catálogo de productos y sistemas de apoyo.</h3>
                             </div>
                         </div>
@@ -202,17 +203,17 @@
                         <div class="thumbnail">
                             <asset:image class="img-responsive" src="estrategia comercial.png"/>
                             <div class="caption" align="center">
-                                <h5>Estrategia Comercial</h5>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">ESTRATEGIA COMERCIAL</h5>
                                 <h3>Trabajamos para que tu tienda en línea tenga el trafico necesario para que genere ventas.</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="thumbnail" style="width: 110%; height: 110%; margin-outside: 3%">
+                        <div class="thumbnail">
                             <asset:image class="img-responsive" src="1contact center.png"/>
                             <div class="caption" align="center">
-                                <h5>Contact center</h5>
-                                <h3>Damos seguimiento post-venta para lograrla fidelización de los compradores.</h3>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">CONTACT CENTER</h5>
+                                <h3>Damos seguimiento post-venta para lograr la fidelización de los compradores.</h3>
                             </div>
                         </div>
                     </div>
@@ -226,7 +227,7 @@
                             <div class="thumbnail">
                                 <asset:image class="img-responsive" src="plan de negocios.jpg"/>
                                 <div class="caption" align="center">
-                                    <h5>Plan de Negocios</h5>
+                                    <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">PLAN DE NEGOCIO</h5>
                                     <h3>Documentamos tu idea de negocio para que puedas presentarla de una manera más atractiva.</h3>
                                 </div>
                             </div>
@@ -236,7 +237,7 @@
                                 <div class="thumbnail">
                                 <asset:image class="img-responsive" src="analisis 360.png"/>
                                 <div class="caption" align="center">
-                                <h5>Análisis 360</h5>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">ANÁLISIS 360</h5>
                                 <h3>Realizamos una evaluación en todas las áreas de tu empresa para identificar cuales se necesitan mejorar y proponemos soluciones.</h3>
                             </div>
                         </div>
@@ -245,8 +246,8 @@
                         <div class="thumbnail">
                             <asset:image class="img-responsive" src="plan-de-negocios.jpg"/>
                             <div class="caption" align="center">
-                                <h5>Proyecciones Financieras</h5>
-                                <h3>Desarrollamos un flujo de capital muy útil para poder planear las alternativas de inversión y crecimiento con las contará tu empresa.</h3>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">PROYECCIONES FINANCIERAS</h5>
+                                <h3>Desarrollamos un flujo de capital muy útil para poder planear las alternativas de inversión y crecimiento con las que contará tu empresa.</h3>
                             </div>
                         </div>
                     </div>
@@ -254,7 +255,7 @@
                         <div class="thumbnail">
                             <asset:image class="img-responsive" src="reacion.png"/>
                             <div class="caption" align="center">
-                                <h5>Creación de Contenido</h5>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">CREACIÓN DE CONTENIDO</h5>
                                 <h3>Hacemos los videos e imágenes que tu marca necesita para crear impacto ante los consumidores.</h3>
                             </div>
                         </div>
@@ -269,7 +270,7 @@
                         <div class="thumbnail">
                             <asset:image class="img-responsive" src="emprender es un trabajo760x380.png"/>
                             <div class="caption" align="center">
-                                <h5>Emprender También es un Trabajo</h5>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">EMPRENDER TAMBIÉN ES UN TRABAJO</h5>
                                 <h3>Cuando apenas inicias un negocio necesitas saber los conceptos básicos que lleva ser rentable a una empresa.</h3>
                             </div>
                         </div>
@@ -278,7 +279,7 @@
                         <div class="thumbnail">
                             <asset:image class="img-responsive" src="grandes empresas fueron pymes.png"/>
                             <div class="caption" align="center">
-                                <h5>Las Grandes Empresas fueron Pymes</h5>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;"> LAS GRANDES EMPRESAS FUERON PYMES</h5>
                                 <h3>Un dueño de negocio siempre se está preparando para llevar a su empresa a un crecimiento constante</h3>
                             </div>
                         </div>
@@ -287,17 +288,17 @@
                         <div class="thumbnail" style="width: 110%; height: 110%; margin-outside: 3%">
                             <asset:image class="img-responsive" src="trabajo-en-equipo me pongo la camiseta.jpg"/>
                             <div class="caption" align="center">
-                                <h5>Me Pongo la Camiseta </h5>
-                                <h3>Traer un equipo de trabajo comprometido con la empresa es la clave del éxito</h3>
+                                <h5 style="font-family:'Arial Black'; font-size: large; color: #ff500f;">ME PONGO LA CAMISETA </h5>
+                                <h3>Tener un equipo de trabajo comprometido con la empresa es la clave del éxito</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="conocenos" style="padding: 5%;background-color: white">
+            <div id="conocenos" style="padding: 25%;background-color: white">
                 <h1 align="center" class="h1" style="color: #0066ff; font-family: Corbel; font: bolder; margin-left:2%; width: 95%; padding-top: 1%;padding-bottom: 1% ;padding-left: 5%; padding-right: 5%">Somos el mejor aliado con el que cuentan las Pymes</h1>
-                <h3 align="center" class="h3" style="color:#113358; margin-left:2%; width: 95%; padding-top: 1%;padding-bottom: 1% ;padding-left: 5%; padding-right: 5%">Desarrollamos las Estrategias de Marketing, Finanzas Administrativas y Capacitación que tu Empresa Necesita</h2>
+                <h3 align="center" class="h3" style="color:#113358; margin-left:2%; width: 95%; padding-top: 1%;padding-bottom: 1% ;padding-left: 5%; padding-right: 5%">Desarrollamos las Estrategias de Marketing, Finanzas Administrativas y Capacitación que tu Empresa Necesita</h3>
             </div>
         </div>
 
@@ -306,21 +307,18 @@
 <g:layoutBody/>
 
 
-<div class="footer" role="contentinfo"></div>
-<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 
-<div class="nav navbar-fixed-bottom" role="contentinfo">
-    <footer>
-        <div class="nav navbar-static-bottom" style="align-content: center; align-items: center; width: 4.5%; height: auto">
+<div class="nav navbar-fixed-bottom" role="contentinfo" style=" align-items: flex-start; min-width: 10%; width: 5%; max-width: 15%; height: auto">
+    <footer style="min-width: 60%; widht:60%;max-width: 5%;">
+        <div class="nav navbar-static-bottom" style=" width: 20%; min-width:100%;max-width: 10%; height: auto">
 
+            <dd><label style="font-family: 'Arial Black'; color: #113358; font-size-adjust: inherit">Siguenos en: </label></dd>
 
-            <dd><label style="color: #113358;">Siguenos en: </label></dd>
+            <g:link url="http://www.facebook.com/Proyecta%Mas"><asset:image src="facebook.ico" style="height: auto; min-height: auto; min-width:100%; width: 100%; background-color: transparent;" /> </g:link>
 
-            Facebook<g:link url="http://www.facebook.com/Proyecta%Mas"><asset:image src="facebook.ico" style="height: 100%; width: 100%; background-color: white;" /> </g:link>
+            <g:link url="https://www.instagram.com/proyectamasmn"><asset:image src="instagram.png" style="height: auto; width: 100%; min-height: auto; min-width: 100%;background-color: transparent;" /></g:link>
 
-            Instagram<g:link url="https://www.instagram.com/proyectamasmn"><asset:image src="instagram.png" style="height: 100%; width: 100%; background-color: white;" /></g:link>
-
-            E-Mail<g:link url="https://www.instagram.com/proyectamasmn"> <asset:image src="e.mail.png" style="height: 100%; width: 100%; background-color: white;" /></g:link>
+            <g:link url="proyectamasmn@gmail.com"><asset:image src="e.mail.png" style="height: auto; width: 100%; min-height:auto; min-width: 100%; background-color: transparent;" /></g:link>
 
 
         </div>
